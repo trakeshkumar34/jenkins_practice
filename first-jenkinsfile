@@ -4,7 +4,7 @@ pipeline {
 		stages {
 	           stage('Git CheckOut') {
 		        steps {
-			   git branch: 'release', credentialsId: '0f56fcea-4708-41e4-80d3-e602b12d22a4', url: 'https://github.com/trakeshkumar34/jenkins_practice.git'
+			   git branch: 'master', credentialsId: '0f56fcea-4708-41e4-80d3-e602b12d22a4', url: 'https://github.com/trakeshkumar34/maven-project.git'
 			}
 			}
 			stage('Clean and Install') {
